@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="QiyuesuoDecrypt:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/QiyuesuoDecrypt_jar</output-path>
+    <root id="archive" name="QiyuesuoDecrypt.jar">
+      <element id="module-output" name="QiyuesuoDecrypt" />
+      <element id="library" level="project" name="classes" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jasypt-1.9.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/slf4j-api-1.7.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/logback-core-1.2.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/slf4j-reload4j-2.0.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jackson-coreutils-2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/logback-classic-1.2.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jackson-databind-2.13.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jackson-jaxrs-base-2.10.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/logging-interceptor-2.7.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jackson-annotations-2.13.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/common-utils-1.0.0-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jasypt-spring-boot-starter-2.1.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
