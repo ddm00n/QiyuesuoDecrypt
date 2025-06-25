@@ -25,8 +25,14 @@ java -jar QiyuesuoDecrypt.jar -decrypt -user {cipher}xxxxxx -salt xxx
 java -jar QiyuesuoDecrypt.jar -decrypt -web {cipher}xxxxxx
 ```
 
-### HASH生产
+### HASH生成
 
 ```
 java -jar QiyuesuoDecrypt.jar -hash xxxx
 ```
+
+## 注意事项
+
+1. 在Windows中，可能因为存在特殊符号比如{}导致得不到正确的输入，可以使用双引号括起来。
+2. Java 8u161以下的版本在不安装补丁的情况下不支持256位的AES密钥，建议使用更高版本的jdk运行程序。
+3. Hash生成部分生成的是管理员密码hash，用户的mobilehash等信息直接用普通sha256即可。
